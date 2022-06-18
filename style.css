@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto&display=swap');
+
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+.head {
+    text-align: center;
+    margin-top: 50px;   
+}
+.head h1 {
+    font-family: 'Roboto', sans-serif;  
+}
+.bigger {
+    opacity: 0.8;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.form-check {
+    margin-left: 10px ;
+}
+
+.off {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.basic {
+    border: solid #646464 1px;
+    padding: 50px;
+}
+.pro {
+    border: solid #d5e3fe 2px;
+    padding: 50px;
+}
+.pro:hover {
+    border: #004df3 2px solid;
+}
+
+.bleu {
+    color: #004df3;
+}
+
+.enterprise {
+    border: solid #646464 1px;
+    padding: 50px;
+}
+.button {
+    
+    
+    text-align: center;
+    border: solid 0.01em black;
+    margin-top: 80px;
+    margin-bottom: -10px;
+    padding: 10px;
+}
+.button:hover {
+    background-color: #004df3;
+}
+a {
+    font-size: 16px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.get {
+    background-color: #d5e3fe;
+}
+
+.p-strong {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 414px){
+    .form {
+        display: block;
+        justify-content: center;
+        margin: auto 50px; 
+    }
+    
+    .off {
+        display: block;
+        
+    }
+    .basic {
+        margin: 10px;
+    }
+    .pro {
+        margin: 10px;
+    }
+    .enterprise {
+        margin: 10px;
+    }
+
+    
+}
